@@ -14,7 +14,7 @@ int[,,] FillPrint3DArray(int height, int length, int depth, int[] array1D)
             {
                 array3D[i, j, k] = array1D[n];
                 n++;
-                Console.Write($"{array3D[i, j, k]} " + "\t", -2);
+                Console.Write($"{array3D[i, j, k]} {i},{j},{k} " + "\t", -2);
             }
             Console.WriteLine();
         }
